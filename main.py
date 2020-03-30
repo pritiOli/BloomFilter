@@ -3,17 +3,16 @@ import random
 
 
 def random_dna(length):
-
-
 """Generates random dna sequences"""
+
 random_dna_sequence = ''
-  dna_string = ['A', 'C', 'G', 'T']
+dna_string = ['A', 'C', 'G', 'T']
 
-   for j in range(length):
-        i = random.randint(0, 3)
-        random_dna_sequence += dna_string[i]
+for j in range(length):
+    i = random.randint(0, 3)
+    random_dna_sequence += dna_string[i]
 
-    return random_dna_sequence
+return random_dna_sequence
 
 
 def evaluation_function(n, l):
