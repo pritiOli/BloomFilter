@@ -1,2 +1,2 @@
 # BloomFilter
-implementation of bloom filter.
+Implementation of bloom filter.
